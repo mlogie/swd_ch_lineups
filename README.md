@@ -11,5 +11,5 @@ AW, SoR, EaW, TPG, LEG, WotF, RIV, AtG, AoN, CONV, SoH, CM, TR<br>
 Just message me if you have trouble.<br><br>
 If you want to create a spreadsheet of all cards released to date, you want create_all_card_data.R.<br>
 You'll need to edit line 1 of this script to the location of the 'set' folder from the swdb repository.<br><br>
-Finally, format_csv.R is an attempt to convert a spreadsheet into json format (the inverse of the create_all_card_data.R script.<br>
+Finally, format_csv.R is an attempt to convert a spreadsheet into json format (the inverse of the create_all_card_data.R script).<br>
 The FA.csv sheet is a source csv for this script to run on.
