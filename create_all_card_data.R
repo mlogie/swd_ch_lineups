@@ -45,5 +45,4 @@ allcards <- allcards %>% select(all_of(firstnames), names(allcards)[!(names(allc
 allcards$points[grepl('/',allcards$points)] <- paste0(' ', allcards$points[grepl('/',allcards$points)])
 allcards$BoFpoints[grepl('/',allcards$BoFpoints)] <- 
   paste0(' ', allcards$BoFpoints[grepl('/',allcards$BoFpoints)])
-allcards <- allcards %>% write.csv('allSWD.csv')
-getwd()
+allcards <- allcards %>% write.csv('allSWD.csv',row.names = FALSE)
